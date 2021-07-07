@@ -1,0 +1,185 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar{
+    background-color: #f3efef;
+}
+.menu ul{
+    margin-top: 0;
+    display: flex;
+}
+.menu li{  
+    padding: 10px;
+   list-style: none;
+}
+.menu li a{
+   color: black;
+}
+.active{
+    background-color: #fa8807;
+}
+a{
+    text-decoration: none;
+}
+.network{
+    display: flex;
+}
+.half-part{
+    width: 50%;
+    margin:40px 80px;
+}
+.half-part img{
+    width: 100%;
+}
+section{
+    margin-bottom: 150px;
+}
+
+.orange-color{
+    color: orange;
+}
+.orangered-color{
+    margin-top: 150px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-image: linear-gradient(to left, #c73622,#f88604);
+}
+.healthy-food p{
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+/*middle area*/
+
+.middle-area{
+    width: 40%;
+}
+.middle{ 
+    background-image: url(image/use-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    display: flex;
+}
+.top-margin{
+    margin-left: 5%;
+    margin-top: 18%;
+}
+.left-margin{
+    margin-left:10% ;
+}
+.top-margin p{
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+
+
+.recipie{
+    background-color: rgb(253, 253, 253);
+}
+.recipies-describe{
+    text-align: center;
+    
+}
+
+.card{
+    display: flex;
+    margin: 0px 50px;
+}
+.card-test{
+    padding: 10px;
+    width: 30%;
+    margin: 10px 15px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px #242121;
+}
+.card-test img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-test h1{
+    margin-bottom:3px ;
+}
+.card-test p{
+    margin-top:7px ;
+}
+
+
+.extra{
+    border-radius: 16px;
+    margin: 0% 5%;
+    display: flex;
+    box-shadow: 5px 5px 30px rgb(27, 24, 24);
+}
+.extra-work
+{
+    text-align: center;
+    width: 30%;
+}
+.extra-work h1{
+    margin-bottom: 0;
+}
+
+.log-in{
+   padding: 35px;
+    margin-left: 20%;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #202020;
+}
+.first-login input{
+    width: 100%;
+    margin: 10px 0px ;
+border-radius: 12px;
+}
+.center{
+    text-align: center;
+}
+.second-login{
+    text-align: center;
+}
+.width{
+    border-radius: 20px;
+    width: 30%;
+}
+
+.login-area{
+    margin: 0px 90px;
+    display: flex;
+}
+.login-img{
+    width: 40%;
+}
+.login-img img{
+    width: 100%;
+    margin-left: 15%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px rgb(51, 49, 49);
+
+}
+
+
+.extra-work p{
+    margin-top: 7px;
+    color: #bbb;
+}
+.food-area{
+    text-align: center;
+    background-color: #242121;
+}
+.footer-area h1{
+    margin-bottom: 7px;
+    color: #bbb;
+}
+.footer-area p{
+    margin-top:3px ;
+    color: #fff;
+}
+.footer-area .deep-color{
+     
+    color: #fa8807;
+}
